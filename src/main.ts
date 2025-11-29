@@ -6,7 +6,7 @@ async function bootstrap() {
   const port = 3000;
 
   const app = await KarinFactory.create(new HonoAdapter(), {
-    scan: "./src/**/*.controller.ts",
+    scan: "./src/**/*.ts",
   });
 
   app.listen(port, () => {

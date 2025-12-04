@@ -1,5 +1,5 @@
-import { KarinFactory, Logger } from "@karin-js/core";
-import { HonoAdapter } from "@karin-js/platform-hono";
+import { KarinFactory, Logger } from "@project-karin/core";
+import { HonoAdapter } from "@project-karin/platform-hono";
 
 async function bootstrap() {
   const logger = new Logger("Bootstrap");
